@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alata">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  body{ font-size: 17px; 
+    font-family: "Josefin Sans", 
+     sans-serif}
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="">
+    <div class="w3-display-container w3-row" >
+      <img class="" src="image-hero.jpg" alt=""width="100%" height="340px" />
+ <div class="w3-half ">
+   <img class="w3-display-topleft w3-padding-large  " src="logo.svg" alt="" />
+  <h1 class="w3-border w3-hide-large w3-hide-medium w3-padding w3-wide w3-center w3-display-left w3-text-white">Immersive experiences that deliver</h1>
+<h1 class="w3-border w3-padding w3-hide-small w3-wide w3-center w3-display-left w3-text-white" style="width:50%">Immersive experiences that deliver</h1>
+  </div>
+<div class="w3-half  w3-display-topright">
+  <button class="w3-hide-medium w3-wide w3-button w3-text-white w3-display-topright w3-padding-large w3-hide-large" type="submit" onclick="w3_open()"><i class="fa fa-bars"></i></button>
+<a class="w3-bar-item w3-button w3-text-white w3-hide-small " href="">About</a>
+<a class="w3-bar-item w3-button w3-text-white w3-hide-small" href="">Careers</a>
+<a class="w3-bar-item w3-button w3-text-white w3-hide-small" href="">Events</a>
+<a class="w3-bar-item w3-button w3-text-white w3-hide-small" href="">Products</a>
+<a class="w3-bar-item w3-button w3-text-white w3-hide-small" href="">Support</a>
+</div>
+</div>
+</div>
+<div class=" w3-sidebar w3-bar-block" style="display:none;z-index:5" id="mySidebar">
+  <img class="" src="logo.svg" alt="" />
+  <button onclick="w3_close()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+ <a class="w3-bar-item w3-button w3-hide-large w3-hide-medium  " href="">About</a>
+<a class="w3-bar-item w3-button w3-hide-large w3-hide-medium" href="">Careers</a>
+<a class="w3-bar-item w3-button w3-hide-large w3-hide-medium" href="">Events</a>
+<a class="w3-bar-item w3-button w3-hide-large w3-hide-medium" href="">Products</a>
+<a class="w3-bar-item w3-button  w3-hide-large w3-hide-medium" href="">Support</a>
+</div>
+  
+</div>
+<div class="w3-overlay" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+<div class="w3-row-padding">
+  <div class="w3-half">
+    <img class=" w3-padding-large" src="image-interactive.jpg" alt="" width="100%" />
+  </div>
+  <div class="w3-half w3-padding-large">
+    <h2 class="">The leader in interactive VR</h2>
+ <p class="">Founded in 2011, Loopstudios has been producing world-class virtual reality 
+  projects for some of the best companies around the globe. Our award-winning 
+  creations have transformed businesses through digital experiences that bind 
+  to their brand.</p>
+ </div>
+</div>
+</div>
+<div class="w3-padding-large w3-padding-top-32">
+<h1 class=" w3-padding w3-left">Our Creation</h1>
+<button class="w3-padding-large w3-hide-small w3-right w3-hover-black " type="submit" style="letter-spacing:3px;">See All</button>
+</div>
+<div class="w3-row-padding w3-border">
+<div class="w3-quarter w3-container w3-display-container w3-padding">
+  <img class="" src="image-deep-earth.jpg" alt="" width="100%"/>
+  <h3 class="w3-text-white  w3-padding w3-display-bottomleft">Deep <br /> Earth </h3>
+</div>
+<div class="w3-quarter w3-container w3-display-container w3-padding">
+  <img class="" src="image-night-arcade.jpg" alt="" width="100%"/> 
+   <h3 class="w3-text-white  w3-padding w3-display-bottomleft">Night <br> Arcade</h3>
+</div>
+<div class="w3-quarter w3-container w3-display-container w3-padding">
+ <img class="" src="image-soccer-team.jpg" alt="" width="100%"/>
+  <h1 class="w3-text-white w3-large w3-padding-large w3-display-bottomleft">soccer<br> 
+  Team VR</h1>
+ 
+</div>
+<div class="w3-quarter w3-container w3-display-container w3-padding">
+  <img class="" src="image-grid.jpg" alt="" width="100%"/>
+   <h3 class="w3-text-white  w3-padding w3-display-bottomleft"> The <br> 
+Grid  </h3>
+</div>
+</div>
+<div class="w3-row-padding w3-border">
+<div class="w3-quarter w3-display-container w3-container w3-padding">
+  <img class="" src="image-from-above.jpg" alt="" width="100%"/>
+  <h3 class="w3-text-white  w3-padding w3-display-bottomleft">From Up <br> 
+  Above VR</h3>
+</div>
+<div class="w3-quarter w3-container w3-display-container w3-padding">
+  <img class="" src="image-pocket-borealis.jpg" alt="" width="100%"/>
+  <h3 class="w3-display-bottomleft w3-padding w3-text-white"> Pocket <br />Borealis</h3>
+</div>
+<div class="w3-quarter w3-display-container w3-container w3-padding">
+ <img class="" src="image-curiosity.jpg" alt="" width="100%"/>
+ <h2 class="w3-display-bottomleft w3-padding w3-text-white"> The <br />Curiosity</h2>
+</div>
+<div class="w3-quarter w3-container w3-display-container w3-padding">
+  <img class="" src="image-fisheye.jpg" alt="" width="100%"/>
+  <h2 class="w3-display-bottomleft w3-padding w3-text-white">Make It <br />Fisheye </h2>
+</div>
+<div class="w3-container w3-center w3-padding-large">
+  <button class="w3-hover-black w3-hide-medium w3-hide-large w3-wide w3-center" type="submit">See All</button>
+</div>
+
+</div>
+  <div class="w3-row w3-padding-large w3-black w3-border">
+  <div class="w3-container w3-center w3-half">
+     <img class="" src="logo.svg" alt="" /> 
+     <br />
+     <h3 class="w3-button w3-center " href="#">About</h3>
+  <h3 class="w3-button w3-center" href="#">Careers</h3>
+  <h3 class="w3-button w3-center w3-bar-item" href="#">Events</h3>
+  <h3 class="w3-button w3-center " href="#">Products</h3>
+  <h3 class="w3-button w3-center" href="#">Support</h3>
+  </div>
+  <div class="w3-container w3-center w3-half">
+    <i class="fa fa-facebook-official w3-button w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-button w3-hover-opacity"></i>
+     <i class="fa fa-pinterest-p w3-button w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-button w3-hover-opacity"></i>
+    <p class="w3-opacity"> © 2021 Loopstudios. All rights reserved.</p>  
+  </div>
+</div>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Jamal</a>.
+  </div>
+  <script type="text/javascript" charset="utf-8">
+  function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+</body>
+</html>
